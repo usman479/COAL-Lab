@@ -1,0 +1,87 @@
+$date
+	Sat Nov 05 16:30:06 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! Q $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var reg 1 % D $end
+$scope module dut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+1!
+$end
+#100
+1%
+#200
+0!
+0%
+1$
+#300
+1!
+1%
+#400
+0!
+0%
+0$
+1#
+#500
+1%
+#600
+1!
+0%
+1$
+#700
+1%
+#800
+1!
+0%
+0$
+0#
+1"
+#900
+0!
+1%
+#1000
+1!
+0%
+1$
+#1100
+0!
+1%
+#1200
+0%
+0$
+1#
+#1300
+1!
+1%
+#1400
+0!
+0%
+1$
+#1500
+1%
+#1600
