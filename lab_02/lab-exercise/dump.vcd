@@ -1,0 +1,76 @@
+$date
+	Tue Nov 08 22:18:03 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 32 ! Q [31:0] $end
+$var reg 32 " A [31:0] $end
+$var reg 32 # B [31:0] $end
+$var reg 3 $ control [2:0] $end
+$scope module dut $end
+$var wire 32 % A [31:0] $end
+$var wire 32 & A_and_B [31:0] $end
+$var wire 32 ' A_or_B [31:0] $end
+$var wire 32 ( B [31:0] $end
+$var wire 32 ) B_not [31:0] $end
+$var wire 3 * control [2:0] $end
+$var wire 32 + S1 [31:0] $end
+$var wire 32 , Q [31:0] $end
+$var wire 32 - Ex [31:0] $end
+$var wire 1 . Cout $end
+$var wire 32 / A_sum_B [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 /
+1.
+b1 -
+b1 ,
+b10111111111111111111111111111111 +
+b101 *
+b10111111111111111111111111111111 )
+b1000000000000000000000000000000 (
+b1000000000000000000000000000000 '
+b1000000000000000000000000000000 &
+b1000000000000000000000000000000 %
+b101 $
+b1000000000000000000000000000000 #
+b1000000000000000000000000000000 "
+b1 !
+$end
+#100
+b0 -
+b101 +
+b11111111111111111111111111111010 )
+b111 '
+b101 &
+b1100 /
+0.
+b1100 !
+b1100 ,
+b101 #
+b101 (
+b111 "
+b111 %
+b0 $
+b0 *
+#200
+b1 -
+1.
+b10 !
+b10 ,
+b11111111111111111111111111111010 +
+b10 /
+b1 $
+b1 *
+#300
