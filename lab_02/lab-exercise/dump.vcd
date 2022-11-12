@@ -1,5 +1,5 @@
 $date
-	Tue Nov 08 22:18:03 2022
+	Sat Nov 12 15:17:38 2022
 $end
 $version
 	Icarus Verilog
@@ -8,22 +8,32 @@ $timescale
 	1s
 $end
 $scope module tb $end
-$var wire 32 ! Q [31:0] $end
-$var reg 32 " A [31:0] $end
-$var reg 32 # B [31:0] $end
-$var reg 3 $ control [2:0] $end
+$var wire 32 ! result [31:0] $end
+$var wire 1 " Zero $end
+$var wire 1 # Verflow $end
+$var wire 1 $ Negative $end
+$var wire 1 % Carry $end
+$var reg 32 & A [31:0] $end
+$var reg 32 ' B [31:0] $end
+$var reg 3 ( control [2:0] $end
 $scope module dut $end
-$var wire 32 % A [31:0] $end
-$var wire 32 & A_and_B [31:0] $end
-$var wire 32 ' A_or_B [31:0] $end
-$var wire 32 ( B [31:0] $end
-$var wire 32 ) B_not [31:0] $end
-$var wire 3 * control [2:0] $end
-$var wire 32 + S1 [31:0] $end
-$var wire 32 , Q [31:0] $end
-$var wire 32 - Ex [31:0] $end
-$var wire 1 . Cout $end
-$var wire 32 / A_sum_B [31:0] $end
+$var wire 32 ) A [31:0] $end
+$var wire 32 * A_and_B [31:0] $end
+$var wire 32 + A_or_B [31:0] $end
+$var wire 1 , A_xnor_B_xnor_control $end
+$var wire 1 - A_xor_sum $end
+$var wire 32 . B [31:0] $end
+$var wire 32 / B_not [31:0] $end
+$var wire 1 % Carry $end
+$var wire 1 # Verflow $end
+$var wire 3 0 control [2:0] $end
+$var wire 1 1 control_1_not $end
+$var wire 32 2 result [31:0] $end
+$var wire 1 " Zero $end
+$var wire 32 3 S1 [31:0] $end
+$var wire 1 $ Negative $end
+$var wire 1 4 Cout $end
+$var wire 32 5 A_sum_B [31:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -32,45 +42,59 @@ $dumpall
 $end
 #0
 $dumpvars
-b0 /
-1.
-b1 -
-b1 ,
-b10111111111111111111111111111111 +
-b101 *
-b10111111111111111111111111111111 )
-b1000000000000000000000000000000 (
-b1000000000000000000000000000000 '
-b1000000000000000000000000000000 &
-b1000000000000000000000000000000 %
-b101 $
-b1000000000000000000000000000000 #
-b1000000000000000000000000000000 "
-b1 !
+b1101110 5
+04
+b111100 3
+b1101110 2
+11
+b0 0
+b11111111111111111111111111000011 /
+b111100 .
+1-
+1,
+b111110 +
+b110000 *
+b110010 )
+b0 (
+b111100 '
+b110010 &
+0%
+0$
+1#
+0"
+b1101110 !
 $end
 #100
-b0 -
-b101 +
-b11111111111111111111111111111010 )
-b111 '
-b101 &
-b1100 /
-0.
-b1100 !
-b1100 ,
-b101 #
-b101 (
-b111 "
-b111 %
-b0 $
-b0 *
+1"
+1%
+0#
+14
+b11111111111111111111111111000011 3
+0,
+b0 !
+b0 2
+b111100 +
+b111100 *
+b0 5
+b111100 &
+b111100 )
+b1 (
+b1 0
 #200
-b1 -
-1.
-b10 !
-b10 ,
-b11111111111111111111111111111010 +
-b10 /
-b1 $
-b1 *
+0-
+1,
+0"
+b10000000000000000000000000000001 3
+b1 !
+b1 2
+b1111111111111111111111111111110 /
+b10000000000000000000000000000001 +
+b10000000000000000000000000000000 *
+b1 5
+b10000000000000000000000000000001 '
+b10000000000000000000000000000001 .
+b10000000000000000000000000000000 &
+b10000000000000000000000000000000 )
+b0 (
+b0 0
 #300
