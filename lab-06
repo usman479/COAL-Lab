@@ -1,0 +1,33 @@
+# Lab Exercise 01
+# li s0, 0x12345678
+# li s1, 0x00000020
+# sb s0, 0x0(s1)
+# sh s0, 0x4(s1)
+# sw s0, 0x8(s1)
+
+# Lab Exercise 02
+# lb t0, 0x0(x0)
+# lbu t1, 0x4(x0)
+# lh t2, 0x8(x0)
+# lhu s0, 0xc(x0)
+# lw s1, 0x10(x0)
+
+
+# In Lab Task 01
+# addi x20,x20,0x20 # base address
+# addi x18,x18,0x5
+# addi x18,x18,0x5 # 5+5
+
+# addi x19,x19,0xA
+# addi x19,x19,-4 # 10-4
+
+# sw x18,0x0(x20)
+# sw x19,0x4(x20)
+
+# In Lab Task 02
+# addi x20,x20,0x20 # base address
+# lhu x18, 0x0(x20)
+# lhu x19, 0x4(x20)
+
+# and x21,x18,x19
+# or x22,x18,x19
