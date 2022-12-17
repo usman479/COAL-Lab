@@ -1,7 +1,7 @@
 module register_file(A1,A2,A3,clk,reset,RD1,RD2,WD3,WE3);
 
-    input[4:0] A1,A2,A3,WE3;
-    input clk,reset;
+    input[4:0] A1,A2,A3;
+    input clk,reset,WE3;
     input[31:0] WD3;
     output [31:0]RD1,RD2;
     reg[31:0] register[31:0];
