@@ -10,8 +10,6 @@
 `include "./ControlUnit/DecoderModules/alu_decoder.v"
 
 
-
-
 module Single_Cycle(clk,reset);
     input clk,reset;
 
@@ -22,8 +20,11 @@ module Single_Cycle(clk,reset);
         wire [31:0] Extended;
         wire [31:0]ALUResult;
         wire RegWrite;
+        wire MemWrite;
         wire [31:0] RD;
+        wire [31:0] RD2;
         wire [31:0] NextIns;
+        wire [1:0] ImmSrc;
         wire [2:0]ALUControl;
 
 
@@ -49,27 +50,28 @@ module Single_Cycle(clk,reset);
                                 .PCSrc(),
                                 .RegWrite(RegWrite),
                                 .ALUSrc(),
-                                .MemWrite(),
+                                .MemWrite(MemWrite),
                                 .ResultSrc(),
-                                .ImmSrc(),
+                                .ImmSrc(ImmSrc),
                                 .ALUControl(ALUControl)
                                 );
 
     register_file register_file (
                                     .A1(Instruction[19:15]),
-                                    .A2(),
+                                    .A2(Instruction[24:20]),
                                     .A3(Instruction[11:7]),
                                     .clk(clk),
                                     .reset(reset),
                                     .RD1(RD1),
-                                    .RD2(),
+                                    .RD2(RD2),
                                     .WD3(RD),
                                     .WE3(RegWrite)
                                     );
 
     sign_extension sign_extension (
-                                    .Imm(Instruction[31:20]),
-                                    .ImmExt(Extended)
+                                    .Imm(Instruction),
+                                    .ImmExt(Extended),
+                                    .ImmSrc(ImmSrc)
                                     );                                  // <==
 
     Flags_ALU Flags_ALU (
@@ -86,8 +88,8 @@ module Single_Cycle(clk,reset);
     data_memory data_memory (
                                 .clk(clk),
                                 .A(ALUResult),
-                                .WD(),
-                                .WE(1'b0),
+                                .WD(RD2),
+                                .WE(MemWrite),
                                 .RD(RD),
                                 .reset(reset)
                             );

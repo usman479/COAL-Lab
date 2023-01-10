@@ -1,0 +1,864 @@
+$date
+	Wed Dec 28 02:18:23 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 16 ! O [15:0] $end
+$var reg 16 " A [15:0] $end
+$var reg 4 # C [3:0] $end
+$scope module dut $end
+$var wire 16 $ A [15:0] $end
+$var wire 4 % C [3:0] $end
+$var wire 16 & z [15:0] $end
+$var wire 16 ' y [15:0] $end
+$var wire 16 ( x [15:0] $end
+$var wire 16 ) O [15:0] $end
+$scope module mux_0 $end
+$var wire 1 * A0 $end
+$var wire 1 + A1 $end
+$var wire 1 , C $end
+$var wire 1 - O $end
+$upscope $end
+$scope module mux_1 $end
+$var wire 1 . A0 $end
+$var wire 1 / A1 $end
+$var wire 1 0 C $end
+$var wire 1 1 O $end
+$upscope $end
+$scope module mux_10 $end
+$var wire 1 2 A0 $end
+$var wire 1 3 A1 $end
+$var wire 1 4 C $end
+$var wire 1 5 O $end
+$upscope $end
+$scope module mux_11 $end
+$var wire 1 6 A0 $end
+$var wire 1 7 A1 $end
+$var wire 1 8 C $end
+$var wire 1 9 O $end
+$upscope $end
+$scope module mux_12 $end
+$var wire 1 : A0 $end
+$var wire 1 ; A1 $end
+$var wire 1 < C $end
+$var wire 1 = O $end
+$upscope $end
+$scope module mux_13 $end
+$var wire 1 > A0 $end
+$var wire 1 ? A1 $end
+$var wire 1 @ C $end
+$var wire 1 A O $end
+$upscope $end
+$scope module mux_14 $end
+$var wire 1 B A0 $end
+$var wire 1 C A1 $end
+$var wire 1 D C $end
+$var wire 1 E O $end
+$upscope $end
+$scope module mux_15 $end
+$var wire 1 F A0 $end
+$var wire 1 G A1 $end
+$var wire 1 H C $end
+$var wire 1 I O $end
+$upscope $end
+$scope module mux_16 $end
+$var wire 1 J A0 $end
+$var wire 1 K A1 $end
+$var wire 1 L C $end
+$var wire 1 M O $end
+$upscope $end
+$scope module mux_17 $end
+$var wire 1 N A0 $end
+$var wire 1 O A1 $end
+$var wire 1 P C $end
+$var wire 1 Q O $end
+$upscope $end
+$scope module mux_18 $end
+$var wire 1 R A0 $end
+$var wire 1 S A1 $end
+$var wire 1 T C $end
+$var wire 1 U O $end
+$upscope $end
+$scope module mux_19 $end
+$var wire 1 V A0 $end
+$var wire 1 W A1 $end
+$var wire 1 X C $end
+$var wire 1 Y O $end
+$upscope $end
+$scope module mux_2 $end
+$var wire 1 Z A0 $end
+$var wire 1 [ A1 $end
+$var wire 1 \ C $end
+$var wire 1 ] O $end
+$upscope $end
+$scope module mux_20 $end
+$var wire 1 ^ A0 $end
+$var wire 1 _ A1 $end
+$var wire 1 ` C $end
+$var wire 1 a O $end
+$upscope $end
+$scope module mux_21 $end
+$var wire 1 b A0 $end
+$var wire 1 c A1 $end
+$var wire 1 d C $end
+$var wire 1 e O $end
+$upscope $end
+$scope module mux_22 $end
+$var wire 1 f A0 $end
+$var wire 1 g A1 $end
+$var wire 1 h C $end
+$var wire 1 i O $end
+$upscope $end
+$scope module mux_23 $end
+$var wire 1 j A0 $end
+$var wire 1 k A1 $end
+$var wire 1 l C $end
+$var wire 1 m O $end
+$upscope $end
+$scope module mux_24 $end
+$var wire 1 n A0 $end
+$var wire 1 o A1 $end
+$var wire 1 p C $end
+$var wire 1 q O $end
+$upscope $end
+$scope module mux_25 $end
+$var wire 1 r A0 $end
+$var wire 1 s A1 $end
+$var wire 1 t C $end
+$var wire 1 u O $end
+$upscope $end
+$scope module mux_26 $end
+$var wire 1 v A0 $end
+$var wire 1 w A1 $end
+$var wire 1 x C $end
+$var wire 1 y O $end
+$upscope $end
+$scope module mux_27 $end
+$var wire 1 z A0 $end
+$var wire 1 { A1 $end
+$var wire 1 | C $end
+$var wire 1 } O $end
+$upscope $end
+$scope module mux_28 $end
+$var wire 1 ~ A0 $end
+$var wire 1 !" A1 $end
+$var wire 1 "" C $end
+$var wire 1 #" O $end
+$upscope $end
+$scope module mux_29 $end
+$var wire 1 $" A0 $end
+$var wire 1 %" A1 $end
+$var wire 1 &" C $end
+$var wire 1 '" O $end
+$upscope $end
+$scope module mux_3 $end
+$var wire 1 (" A0 $end
+$var wire 1 )" A1 $end
+$var wire 1 *" C $end
+$var wire 1 +" O $end
+$upscope $end
+$scope module mux_30 $end
+$var wire 1 ," A0 $end
+$var wire 1 -" A1 $end
+$var wire 1 ." C $end
+$var wire 1 /" O $end
+$upscope $end
+$scope module mux_31 $end
+$var wire 1 0" A0 $end
+$var wire 1 1" A1 $end
+$var wire 1 2" C $end
+$var wire 1 3" O $end
+$upscope $end
+$scope module mux_32 $end
+$var wire 1 4" A0 $end
+$var wire 1 5" A1 $end
+$var wire 1 6" C $end
+$var wire 1 7" O $end
+$upscope $end
+$scope module mux_33 $end
+$var wire 1 8" A0 $end
+$var wire 1 9" A1 $end
+$var wire 1 :" C $end
+$var wire 1 ;" O $end
+$upscope $end
+$scope module mux_34 $end
+$var wire 1 <" A0 $end
+$var wire 1 =" A1 $end
+$var wire 1 >" C $end
+$var wire 1 ?" O $end
+$upscope $end
+$scope module mux_35 $end
+$var wire 1 @" A0 $end
+$var wire 1 A" A1 $end
+$var wire 1 B" C $end
+$var wire 1 C" O $end
+$upscope $end
+$scope module mux_36 $end
+$var wire 1 D" A0 $end
+$var wire 1 E" A1 $end
+$var wire 1 F" C $end
+$var wire 1 G" O $end
+$upscope $end
+$scope module mux_37 $end
+$var wire 1 H" A0 $end
+$var wire 1 I" A1 $end
+$var wire 1 J" C $end
+$var wire 1 K" O $end
+$upscope $end
+$scope module mux_38 $end
+$var wire 1 L" A0 $end
+$var wire 1 M" A1 $end
+$var wire 1 N" C $end
+$var wire 1 O" O $end
+$upscope $end
+$scope module mux_39 $end
+$var wire 1 P" A0 $end
+$var wire 1 Q" A1 $end
+$var wire 1 R" C $end
+$var wire 1 S" O $end
+$upscope $end
+$scope module mux_4 $end
+$var wire 1 T" A0 $end
+$var wire 1 U" A1 $end
+$var wire 1 V" C $end
+$var wire 1 W" O $end
+$upscope $end
+$scope module mux_40 $end
+$var wire 1 X" A0 $end
+$var wire 1 Y" A1 $end
+$var wire 1 Z" C $end
+$var wire 1 [" O $end
+$upscope $end
+$scope module mux_41 $end
+$var wire 1 \" A0 $end
+$var wire 1 ]" A1 $end
+$var wire 1 ^" C $end
+$var wire 1 _" O $end
+$upscope $end
+$scope module mux_42 $end
+$var wire 1 `" A0 $end
+$var wire 1 a" A1 $end
+$var wire 1 b" C $end
+$var wire 1 c" O $end
+$upscope $end
+$scope module mux_43 $end
+$var wire 1 d" A0 $end
+$var wire 1 e" A1 $end
+$var wire 1 f" C $end
+$var wire 1 g" O $end
+$upscope $end
+$scope module mux_44 $end
+$var wire 1 h" A0 $end
+$var wire 1 i" A1 $end
+$var wire 1 j" C $end
+$var wire 1 k" O $end
+$upscope $end
+$scope module mux_45 $end
+$var wire 1 l" A0 $end
+$var wire 1 m" A1 $end
+$var wire 1 n" C $end
+$var wire 1 o" O $end
+$upscope $end
+$scope module mux_46 $end
+$var wire 1 p" A0 $end
+$var wire 1 q" A1 $end
+$var wire 1 r" C $end
+$var wire 1 s" O $end
+$upscope $end
+$scope module mux_47 $end
+$var wire 1 t" A0 $end
+$var wire 1 u" A1 $end
+$var wire 1 v" C $end
+$var wire 1 w" O $end
+$upscope $end
+$scope module mux_48 $end
+$var wire 1 x" A0 $end
+$var wire 1 y" A1 $end
+$var wire 1 z" C $end
+$var wire 1 {" O $end
+$upscope $end
+$scope module mux_49 $end
+$var wire 1 |" A0 $end
+$var wire 1 }" A1 $end
+$var wire 1 ~" C $end
+$var wire 1 !# O $end
+$upscope $end
+$scope module mux_5 $end
+$var wire 1 "# A0 $end
+$var wire 1 ## A1 $end
+$var wire 1 $# C $end
+$var wire 1 %# O $end
+$upscope $end
+$scope module mux_50 $end
+$var wire 1 &# A0 $end
+$var wire 1 '# A1 $end
+$var wire 1 (# C $end
+$var wire 1 )# O $end
+$upscope $end
+$scope module mux_51 $end
+$var wire 1 *# A0 $end
+$var wire 1 +# A1 $end
+$var wire 1 ,# C $end
+$var wire 1 -# O $end
+$upscope $end
+$scope module mux_52 $end
+$var wire 1 .# A0 $end
+$var wire 1 /# A1 $end
+$var wire 1 0# C $end
+$var wire 1 1# O $end
+$upscope $end
+$scope module mux_53 $end
+$var wire 1 2# A0 $end
+$var wire 1 3# A1 $end
+$var wire 1 4# C $end
+$var wire 1 5# O $end
+$upscope $end
+$scope module mux_54 $end
+$var wire 1 6# A0 $end
+$var wire 1 7# A1 $end
+$var wire 1 8# C $end
+$var wire 1 9# O $end
+$upscope $end
+$scope module mux_55 $end
+$var wire 1 :# A0 $end
+$var wire 1 ;# A1 $end
+$var wire 1 <# C $end
+$var wire 1 =# O $end
+$upscope $end
+$scope module mux_56 $end
+$var wire 1 ># A0 $end
+$var wire 1 ?# A1 $end
+$var wire 1 @# C $end
+$var wire 1 A# O $end
+$upscope $end
+$scope module mux_57 $end
+$var wire 1 B# A0 $end
+$var wire 1 C# A1 $end
+$var wire 1 D# C $end
+$var wire 1 E# O $end
+$upscope $end
+$scope module mux_58 $end
+$var wire 1 F# A0 $end
+$var wire 1 G# A1 $end
+$var wire 1 H# C $end
+$var wire 1 I# O $end
+$upscope $end
+$scope module mux_59 $end
+$var wire 1 J# A0 $end
+$var wire 1 K# A1 $end
+$var wire 1 L# C $end
+$var wire 1 M# O $end
+$upscope $end
+$scope module mux_6 $end
+$var wire 1 N# A0 $end
+$var wire 1 O# A1 $end
+$var wire 1 P# C $end
+$var wire 1 Q# O $end
+$upscope $end
+$scope module mux_60 $end
+$var wire 1 R# A0 $end
+$var wire 1 S# A1 $end
+$var wire 1 T# C $end
+$var wire 1 U# O $end
+$upscope $end
+$scope module mux_61 $end
+$var wire 1 V# A0 $end
+$var wire 1 W# A1 $end
+$var wire 1 X# C $end
+$var wire 1 Y# O $end
+$upscope $end
+$scope module mux_62 $end
+$var wire 1 Z# A0 $end
+$var wire 1 [# A1 $end
+$var wire 1 \# C $end
+$var wire 1 ]# O $end
+$upscope $end
+$scope module mux_63 $end
+$var wire 1 ^# A0 $end
+$var wire 1 _# A1 $end
+$var wire 1 `# C $end
+$var wire 1 a# O $end
+$upscope $end
+$scope module mux_7 $end
+$var wire 1 b# A0 $end
+$var wire 1 c# A1 $end
+$var wire 1 d# C $end
+$var wire 1 e# O $end
+$upscope $end
+$scope module mux_8 $end
+$var wire 1 f# A0 $end
+$var wire 1 g# A1 $end
+$var wire 1 h# C $end
+$var wire 1 i# O $end
+$upscope $end
+$scope module mux_9 $end
+$var wire 1 j# A0 $end
+$var wire 1 k# A1 $end
+$var wire 1 l# C $end
+$var wire 1 m# O $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1m#
+0l#
+1k#
+1j#
+0i#
+0h#
+0g#
+0f#
+1e#
+0d#
+1c#
+1b#
+1a#
+0`#
+0_#
+1^#
+0]#
+0\#
+1[#
+0Z#
+1Y#
+0X#
+0W#
+1V#
+0U#
+0T#
+1S#
+0R#
+0Q#
+0P#
+0O#
+0N#
+1M#
+0L#
+0K#
+1J#
+0I#
+0H#
+1G#
+0F#
+1E#
+0D#
+0C#
+1B#
+0A#
+0@#
+1?#
+0>#
+1=#
+0<#
+0;#
+1:#
+09#
+08#
+17#
+06#
+15#
+04#
+03#
+12#
+01#
+00#
+1/#
+0.#
+1-#
+0,#
+0+#
+1*#
+0)#
+0(#
+1'#
+0&#
+1%#
+0$#
+1##
+1"#
+1!#
+0~"
+0}"
+1|"
+0{"
+0z"
+1y"
+0x"
+1w"
+0v"
+1u"
+1t"
+0s"
+0r"
+0q"
+0p"
+1o"
+0n"
+1m"
+1l"
+0k"
+0j"
+0i"
+0h"
+1g"
+0f"
+1e"
+1d"
+0c"
+0b"
+0a"
+0`"
+1_"
+0^"
+1]"
+1\"
+0["
+0Z"
+0Y"
+0X"
+0W"
+0V"
+0U"
+0T"
+1S"
+0R"
+1Q"
+1P"
+0O"
+0N"
+0M"
+0L"
+1K"
+0J"
+1I"
+1H"
+0G"
+0F"
+0E"
+0D"
+1C"
+0B"
+1A"
+1@"
+0?"
+0>"
+0="
+0<"
+1;"
+0:"
+19"
+18"
+07"
+06"
+05"
+04"
+13"
+02"
+11"
+10"
+0/"
+0."
+0-"
+0,"
+1+"
+0*"
+1)"
+1("
+1'"
+0&"
+1%"
+1$"
+0#"
+0""
+0!"
+0~
+1}
+0|
+1{
+1z
+0y
+0x
+0w
+0v
+1u
+0t
+1s
+1r
+0q
+0p
+0o
+0n
+1m
+0l
+1k
+1j
+0i
+0h
+0g
+0f
+1e
+0d
+1c
+1b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+1Y
+0X
+1W
+1V
+0U
+0T
+0S
+0R
+1Q
+0P
+1O
+1N
+0M
+0L
+0K
+0J
+1I
+0H
+1G
+1F
+0E
+0D
+0C
+0B
+1A
+0@
+1?
+1>
+0=
+0<
+0;
+0:
+19
+08
+17
+16
+05
+04
+03
+02
+11
+00
+1/
+1.
+0-
+0,
+0+
+0*
+b1010101010101010 )
+b1010101010101010 (
+b1010101010101010 '
+b1010101010101010 &
+b0 %
+b1010101010101010 $
+b0 #
+b1010101010101010 "
+b1010101010101010 !
+$end
+#100
+0a#
+1]#
+0Y#
+1U#
+0M#
+1I#
+0E#
+1A#
+0=#
+19#
+05#
+11#
+0-#
+1)#
+0!#
+b101010101010101 !
+b101010101010101 )
+1{"
+1`#
+1\#
+1X#
+1T#
+1L#
+1H#
+1D#
+1@#
+1<#
+18#
+14#
+10#
+1,#
+1(#
+1~"
+1z"
+b1 #
+b1 %
+#200
+0^#
+0[#
+0V#
+0S#
+1R#
+1K#
+0B#
+0?#
+0:#
+07#
+02#
+0/#
+0*#
+0'#
+0|"
+0y"
+0w"
+0o"
+1k"
+0_"
+0S"
+0K"
+0C"
+b1100000000000 &
+0;"
+0t"
+0m"
+0l"
+0e"
+1h"
+1a"
+0\"
+0Q"
+0P"
+0I"
+0H"
+0A"
+0@"
+09"
+08"
+03"
+0'"
+1#"
+0u
+0m
+0e
+0Y
+b1100000000000 '
+0Q
+0]#
+0Y#
+1U#
+1M#
+0I#
+0E#
+0A#
+0=#
+09#
+05#
+01#
+0-#
+0)#
+0!#
+0{"
+0$"
+0s
+0z
+0k
+0r
+0c
+0j
+0W
+0b
+0O
+0V
+0N
+1J
+0A
+09
+0m#
+0e#
+0%#
+0+"
+01
+b1000000000000001 (
+1-
+b1100000000000 !
+b1100000000000 )
+0a#
+12"
+1."
+1&"
+1""
+1|
+1x
+1t
+1p
+1l
+1h
+1d
+1`
+1X
+1T
+1P
+1L
+0`#
+0\#
+0X#
+0T#
+0L#
+0H#
+0D#
+0@#
+0<#
+08#
+04#
+00#
+0,#
+0(#
+0~"
+0z"
+0G
+0>
+0?
+06
+07
+0j#
+0k#
+1g#
+0b#
+0"#
+0##
+0("
+0)"
+0.
+0/
+1*
+01"
+0%"
+1!"
+0u"
+1q"
+1_#
+b100 #
+b100 %
+b1000000000000001 "
+b1000000000000001 $
+#300
