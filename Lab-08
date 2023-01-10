@@ -1,0 +1,18 @@
+// Calculate Fibonacci series till 144 In Lab Task 01
+addi x1,x0,1
+addi x2,x0,0
+addi x20,x0,144
+Loop:
+    add x3,x2,x1
+    add x1,x0,x2
+    add x2,x0,x3
+    bne x20,x3,Loop
+
+ add x21,x0,x3
+
+// Calculate Fibonacci series till 144 In Lab Task 02 #
+addi x15,x0,50
+addi x2,x0,0x2
+div x6,x15,x2
+addi x3,x6,0x1
+mul x20,x6,x3
